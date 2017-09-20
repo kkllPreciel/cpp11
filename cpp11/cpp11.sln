@@ -35,6 +35,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Non-static data member init
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "inheriting constructors", "inheriting constructors\inheriting constructors.vcxproj", "{7899BC7A-7171-411E-9B77-EC965FB9F446}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "override final keywords", "override final keywords\override final keywords.vcxproj", "{C84DD116-90FF-4FAD-8C39-DC32533320B0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -171,6 +173,14 @@ Global
 		{7899BC7A-7171-411E-9B77-EC965FB9F446}.Release|x64.Build.0 = Release|x64
 		{7899BC7A-7171-411E-9B77-EC965FB9F446}.Release|x86.ActiveCfg = Release|Win32
 		{7899BC7A-7171-411E-9B77-EC965FB9F446}.Release|x86.Build.0 = Release|Win32
+		{C84DD116-90FF-4FAD-8C39-DC32533320B0}.Debug|x64.ActiveCfg = Debug|x64
+		{C84DD116-90FF-4FAD-8C39-DC32533320B0}.Debug|x64.Build.0 = Debug|x64
+		{C84DD116-90FF-4FAD-8C39-DC32533320B0}.Debug|x86.ActiveCfg = Debug|Win32
+		{C84DD116-90FF-4FAD-8C39-DC32533320B0}.Debug|x86.Build.0 = Debug|Win32
+		{C84DD116-90FF-4FAD-8C39-DC32533320B0}.Release|x64.ActiveCfg = Release|x64
+		{C84DD116-90FF-4FAD-8C39-DC32533320B0}.Release|x64.Build.0 = Release|x64
+		{C84DD116-90FF-4FAD-8C39-DC32533320B0}.Release|x86.ActiveCfg = Release|Win32
+		{C84DD116-90FF-4FAD-8C39-DC32533320B0}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
