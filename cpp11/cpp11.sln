@@ -45,6 +45,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "qualifier", "qualifier\qual
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "enum", "enum\enum.vcxproj", "{6D64AEF6-3963-4919-A12A-C23DFEEED5F8}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "union", "union\union.vcxproj", "{850FC727-C665-49E4-BF75-9E80D13A1EFE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -221,6 +223,14 @@ Global
 		{6D64AEF6-3963-4919-A12A-C23DFEEED5F8}.Release|x64.Build.0 = Release|x64
 		{6D64AEF6-3963-4919-A12A-C23DFEEED5F8}.Release|x86.ActiveCfg = Release|Win32
 		{6D64AEF6-3963-4919-A12A-C23DFEEED5F8}.Release|x86.Build.0 = Release|Win32
+		{850FC727-C665-49E4-BF75-9E80D13A1EFE}.Debug|x64.ActiveCfg = Debug|x64
+		{850FC727-C665-49E4-BF75-9E80D13A1EFE}.Debug|x64.Build.0 = Debug|x64
+		{850FC727-C665-49E4-BF75-9E80D13A1EFE}.Debug|x86.ActiveCfg = Debug|Win32
+		{850FC727-C665-49E4-BF75-9E80D13A1EFE}.Debug|x86.Build.0 = Debug|Win32
+		{850FC727-C665-49E4-BF75-9E80D13A1EFE}.Release|x64.ActiveCfg = Release|x64
+		{850FC727-C665-49E4-BF75-9E80D13A1EFE}.Release|x64.Build.0 = Release|x64
+		{850FC727-C665-49E4-BF75-9E80D13A1EFE}.Release|x86.ActiveCfg = Release|Win32
+		{850FC727-C665-49E4-BF75-9E80D13A1EFE}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
