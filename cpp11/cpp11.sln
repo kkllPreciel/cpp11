@@ -57,6 +57,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "variadic templates", "varia
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Local and Unnamed Types as Template Arguments", "Local and Unnamed Types as Template Arguments\Local and Unnamed Types as Template Arguments.vcxproj", "{AF3DE8A7-303D-433F-BAC5-B89C54A67592}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SFINAE", "SFINAE\SFINAE.vcxproj", "{490D51DE-247B-4AA8-9AC5-C2CB400460DB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -281,6 +283,14 @@ Global
 		{AF3DE8A7-303D-433F-BAC5-B89C54A67592}.Release|x64.Build.0 = Release|x64
 		{AF3DE8A7-303D-433F-BAC5-B89C54A67592}.Release|x86.ActiveCfg = Release|Win32
 		{AF3DE8A7-303D-433F-BAC5-B89C54A67592}.Release|x86.Build.0 = Release|Win32
+		{490D51DE-247B-4AA8-9AC5-C2CB400460DB}.Debug|x64.ActiveCfg = Debug|x64
+		{490D51DE-247B-4AA8-9AC5-C2CB400460DB}.Debug|x64.Build.0 = Debug|x64
+		{490D51DE-247B-4AA8-9AC5-C2CB400460DB}.Debug|x86.ActiveCfg = Debug|Win32
+		{490D51DE-247B-4AA8-9AC5-C2CB400460DB}.Debug|x86.Build.0 = Debug|Win32
+		{490D51DE-247B-4AA8-9AC5-C2CB400460DB}.Release|x64.ActiveCfg = Release|x64
+		{490D51DE-247B-4AA8-9AC5-C2CB400460DB}.Release|x64.Build.0 = Release|x64
+		{490D51DE-247B-4AA8-9AC5-C2CB400460DB}.Release|x86.ActiveCfg = Release|Win32
+		{490D51DE-247B-4AA8-9AC5-C2CB400460DB}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
