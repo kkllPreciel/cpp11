@@ -53,6 +53,20 @@ struct is_complete_type
 
 struct A {};
 struct B;
+
+template <class... Args>
+struct is_callable_impl {
+	template <class F>
+	static std::true_type
+		check(decltype(std::declval<F>()(std::declval<Args>()...), (void)0)*);
+
+	template <class F>
+	static std::false_type check(...);
+};
+
+template <class F, class... Args>
+struct is_callable
+	: decltype(is_callable_impl<Args...>::template check<F>(nullptr)) {};
 #endif
 
 struct X {};
@@ -73,7 +87,15 @@ int main()
 
 	static_assert(is_complete_type<A>::value, "A is complete type");
 	static_assert(!is_complete_type<B>::value, "B is incomplete type");
-#endif
 
+	auto f = [](int a, char b, const std::string& c) {
+		std::cout << a << ", " << b << ", " << c << std::endl;
+	};
+
+	static_assert(is_callable<decltype(f), int, char, const std::string&>::value,
+		"f is callable with follow arguments: [int, char, const std::string&]");
+	static_assert(!is_callable<decltype(f), int>::value,
+		"f is callable with int type one argument");
+#endif
 	return 0;
 }
