@@ -69,6 +69,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "static assert", "static ass
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Raw string literals", "Raw string literals\Raw string literals.vcxproj", "{38B2BEB1-1598-4A45-A0E6-43399D1462D6}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "char16_t char32_t", "char16_t char32_t\char16_t char32_t.vcxproj", "{C7F40729-32CD-43C0-A191-43F60070C82D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -341,6 +343,14 @@ Global
 		{38B2BEB1-1598-4A45-A0E6-43399D1462D6}.Release|x64.Build.0 = Release|x64
 		{38B2BEB1-1598-4A45-A0E6-43399D1462D6}.Release|x86.ActiveCfg = Release|Win32
 		{38B2BEB1-1598-4A45-A0E6-43399D1462D6}.Release|x86.Build.0 = Release|Win32
+		{C7F40729-32CD-43C0-A191-43F60070C82D}.Debug|x64.ActiveCfg = Debug|x64
+		{C7F40729-32CD-43C0-A191-43F60070C82D}.Debug|x64.Build.0 = Debug|x64
+		{C7F40729-32CD-43C0-A191-43F60070C82D}.Debug|x86.ActiveCfg = Debug|Win32
+		{C7F40729-32CD-43C0-A191-43F60070C82D}.Debug|x86.Build.0 = Debug|Win32
+		{C7F40729-32CD-43C0-A191-43F60070C82D}.Release|x64.ActiveCfg = Release|x64
+		{C7F40729-32CD-43C0-A191-43F60070C82D}.Release|x64.Build.0 = Release|x64
+		{C7F40729-32CD-43C0-A191-43F60070C82D}.Release|x86.ActiveCfg = Release|Win32
+		{C7F40729-32CD-43C0-A191-43F60070C82D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
