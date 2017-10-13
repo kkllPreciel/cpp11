@@ -9,6 +9,7 @@ int main()
 	std::u16string s16 = u"吉野家";
 	std::u32string s32 = U"吉野家";
 
+	// WARNING:visual studio2015だと何故かsizeが3になる
 	//assert(s16.size() == 4); // サロゲートペアを含むので1文字分多い
 	assert(s32.size() == 3); // UTF-32にサロゲートペアはない
 
