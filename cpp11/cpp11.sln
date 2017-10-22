@@ -85,6 +85,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "std forward_list", "std for
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "std unordered_map", "std unordered_map\std unordered_map.vcxproj", "{5628DE57-AEF4-4C9E-B48D-860E1EF1C73F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "std unordered_set", "std unordered_set\std unordered_set.vcxproj", "{6C07E018-D67C-4B34-B9FA-920441D6D3CA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -421,6 +423,14 @@ Global
 		{5628DE57-AEF4-4C9E-B48D-860E1EF1C73F}.Release|x64.Build.0 = Release|x64
 		{5628DE57-AEF4-4C9E-B48D-860E1EF1C73F}.Release|x86.ActiveCfg = Release|Win32
 		{5628DE57-AEF4-4C9E-B48D-860E1EF1C73F}.Release|x86.Build.0 = Release|Win32
+		{6C07E018-D67C-4B34-B9FA-920441D6D3CA}.Debug|x64.ActiveCfg = Debug|x64
+		{6C07E018-D67C-4B34-B9FA-920441D6D3CA}.Debug|x64.Build.0 = Debug|x64
+		{6C07E018-D67C-4B34-B9FA-920441D6D3CA}.Debug|x86.ActiveCfg = Debug|Win32
+		{6C07E018-D67C-4B34-B9FA-920441D6D3CA}.Debug|x86.Build.0 = Debug|Win32
+		{6C07E018-D67C-4B34-B9FA-920441D6D3CA}.Release|x64.ActiveCfg = Release|x64
+		{6C07E018-D67C-4B34-B9FA-920441D6D3CA}.Release|x64.Build.0 = Release|x64
+		{6C07E018-D67C-4B34-B9FA-920441D6D3CA}.Release|x86.ActiveCfg = Release|Win32
+		{6C07E018-D67C-4B34-B9FA-920441D6D3CA}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
