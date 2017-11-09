@@ -119,6 +119,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "std move_backward", "std mo
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "std shuffle", "std shuffle\std shuffle.vcxproj", "{FBBB9BDB-0E2B-41B2-A34A-A655699DC5BF}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "std is_sorted", "std is_sorted\std is_sorted.vcxproj", "{577E7942-0335-471F-A205-E6C25131ABE0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -591,6 +593,14 @@ Global
 		{FBBB9BDB-0E2B-41B2-A34A-A655699DC5BF}.Release|x64.Build.0 = Release|x64
 		{FBBB9BDB-0E2B-41B2-A34A-A655699DC5BF}.Release|x86.ActiveCfg = Release|Win32
 		{FBBB9BDB-0E2B-41B2-A34A-A655699DC5BF}.Release|x86.Build.0 = Release|Win32
+		{577E7942-0335-471F-A205-E6C25131ABE0}.Debug|x64.ActiveCfg = Debug|x64
+		{577E7942-0335-471F-A205-E6C25131ABE0}.Debug|x64.Build.0 = Debug|x64
+		{577E7942-0335-471F-A205-E6C25131ABE0}.Debug|x86.ActiveCfg = Debug|Win32
+		{577E7942-0335-471F-A205-E6C25131ABE0}.Debug|x86.Build.0 = Debug|Win32
+		{577E7942-0335-471F-A205-E6C25131ABE0}.Release|x64.ActiveCfg = Release|x64
+		{577E7942-0335-471F-A205-E6C25131ABE0}.Release|x64.Build.0 = Release|x64
+		{577E7942-0335-471F-A205-E6C25131ABE0}.Release|x86.ActiveCfg = Release|Win32
+		{577E7942-0335-471F-A205-E6C25131ABE0}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
