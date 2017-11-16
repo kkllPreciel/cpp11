@@ -127,6 +127,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "std allocator_traits", "std
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "std shared_ptr", "std shared_ptr\std shared_ptr.vcxproj", "{698B9890-ABF5-4F3C-B789-BC63A2CCD80C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "std unique_ptr", "std unique_ptr\std unique_ptr.vcxproj", "{780AFE9D-742F-453B-AA3A-DC6DB490861F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -631,6 +633,14 @@ Global
 		{698B9890-ABF5-4F3C-B789-BC63A2CCD80C}.Release|x64.Build.0 = Release|x64
 		{698B9890-ABF5-4F3C-B789-BC63A2CCD80C}.Release|x86.ActiveCfg = Release|Win32
 		{698B9890-ABF5-4F3C-B789-BC63A2CCD80C}.Release|x86.Build.0 = Release|Win32
+		{780AFE9D-742F-453B-AA3A-DC6DB490861F}.Debug|x64.ActiveCfg = Debug|x64
+		{780AFE9D-742F-453B-AA3A-DC6DB490861F}.Debug|x64.Build.0 = Debug|x64
+		{780AFE9D-742F-453B-AA3A-DC6DB490861F}.Debug|x86.ActiveCfg = Debug|Win32
+		{780AFE9D-742F-453B-AA3A-DC6DB490861F}.Debug|x86.Build.0 = Debug|Win32
+		{780AFE9D-742F-453B-AA3A-DC6DB490861F}.Release|x64.ActiveCfg = Release|x64
+		{780AFE9D-742F-453B-AA3A-DC6DB490861F}.Release|x64.Build.0 = Release|x64
+		{780AFE9D-742F-453B-AA3A-DC6DB490861F}.Release|x86.ActiveCfg = Release|Win32
+		{780AFE9D-742F-453B-AA3A-DC6DB490861F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
