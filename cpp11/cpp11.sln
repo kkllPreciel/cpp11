@@ -135,6 +135,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "std function", "std functio
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "std bind", "std bind\std bind.vcxproj", "{AF4F2233-2E75-4445-A5B3-550B7DC88703}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "std mem_fn", "std mem_fn\std mem_fn.vcxproj", "{3EFB550A-A483-4B4B-8C3D-F66DFE6F2CFD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -671,6 +673,14 @@ Global
 		{AF4F2233-2E75-4445-A5B3-550B7DC88703}.Release|x64.Build.0 = Release|x64
 		{AF4F2233-2E75-4445-A5B3-550B7DC88703}.Release|x86.ActiveCfg = Release|Win32
 		{AF4F2233-2E75-4445-A5B3-550B7DC88703}.Release|x86.Build.0 = Release|Win32
+		{3EFB550A-A483-4B4B-8C3D-F66DFE6F2CFD}.Debug|x64.ActiveCfg = Debug|x64
+		{3EFB550A-A483-4B4B-8C3D-F66DFE6F2CFD}.Debug|x64.Build.0 = Debug|x64
+		{3EFB550A-A483-4B4B-8C3D-F66DFE6F2CFD}.Debug|x86.ActiveCfg = Debug|Win32
+		{3EFB550A-A483-4B4B-8C3D-F66DFE6F2CFD}.Debug|x86.Build.0 = Debug|Win32
+		{3EFB550A-A483-4B4B-8C3D-F66DFE6F2CFD}.Release|x64.ActiveCfg = Release|x64
+		{3EFB550A-A483-4B4B-8C3D-F66DFE6F2CFD}.Release|x64.Build.0 = Release|x64
+		{3EFB550A-A483-4B4B-8C3D-F66DFE6F2CFD}.Release|x86.ActiveCfg = Release|Win32
+		{3EFB550A-A483-4B4B-8C3D-F66DFE6F2CFD}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
