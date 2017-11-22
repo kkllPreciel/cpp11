@@ -139,6 +139,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "std mem_fn", "std mem_fn\st
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "std hash", "std hash\std hash.vcxproj", "{D6667CF7-D43D-4858-80A4-E5FF73535874}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "std thread", "std thread\std thread.vcxproj", "{278EA52A-F960-4D71-85CE-8A0069E9C0CA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -691,6 +693,14 @@ Global
 		{D6667CF7-D43D-4858-80A4-E5FF73535874}.Release|x64.Build.0 = Release|x64
 		{D6667CF7-D43D-4858-80A4-E5FF73535874}.Release|x86.ActiveCfg = Release|Win32
 		{D6667CF7-D43D-4858-80A4-E5FF73535874}.Release|x86.Build.0 = Release|Win32
+		{278EA52A-F960-4D71-85CE-8A0069E9C0CA}.Debug|x64.ActiveCfg = Debug|x64
+		{278EA52A-F960-4D71-85CE-8A0069E9C0CA}.Debug|x64.Build.0 = Debug|x64
+		{278EA52A-F960-4D71-85CE-8A0069E9C0CA}.Debug|x86.ActiveCfg = Debug|Win32
+		{278EA52A-F960-4D71-85CE-8A0069E9C0CA}.Debug|x86.Build.0 = Debug|Win32
+		{278EA52A-F960-4D71-85CE-8A0069E9C0CA}.Release|x64.ActiveCfg = Release|x64
+		{278EA52A-F960-4D71-85CE-8A0069E9C0CA}.Release|x64.Build.0 = Release|x64
+		{278EA52A-F960-4D71-85CE-8A0069E9C0CA}.Release|x86.ActiveCfg = Release|Win32
+		{278EA52A-F960-4D71-85CE-8A0069E9C0CA}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
