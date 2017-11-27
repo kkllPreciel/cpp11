@@ -151,6 +151,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "std unique_lock", "std uniq
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "std call_once", "std call_once\std call_once.vcxproj", "{B18771B7-009B-4EE1-9C8E-21CADE93051A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "std condition_variable", "std condition_variable\std condition_variable.vcxproj", "{0388C515-52FA-404B-8112-D2129A597FC9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -751,6 +753,14 @@ Global
 		{B18771B7-009B-4EE1-9C8E-21CADE93051A}.Release|x64.Build.0 = Release|x64
 		{B18771B7-009B-4EE1-9C8E-21CADE93051A}.Release|x86.ActiveCfg = Release|Win32
 		{B18771B7-009B-4EE1-9C8E-21CADE93051A}.Release|x86.Build.0 = Release|Win32
+		{0388C515-52FA-404B-8112-D2129A597FC9}.Debug|x64.ActiveCfg = Debug|x64
+		{0388C515-52FA-404B-8112-D2129A597FC9}.Debug|x64.Build.0 = Debug|x64
+		{0388C515-52FA-404B-8112-D2129A597FC9}.Debug|x86.ActiveCfg = Debug|Win32
+		{0388C515-52FA-404B-8112-D2129A597FC9}.Debug|x86.Build.0 = Debug|Win32
+		{0388C515-52FA-404B-8112-D2129A597FC9}.Release|x64.ActiveCfg = Release|x64
+		{0388C515-52FA-404B-8112-D2129A597FC9}.Release|x64.Build.0 = Release|x64
+		{0388C515-52FA-404B-8112-D2129A597FC9}.Release|x86.ActiveCfg = Release|Win32
+		{0388C515-52FA-404B-8112-D2129A597FC9}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
