@@ -153,6 +153,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "std call_once", "std call_o
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "std condition_variable", "std condition_variable\std condition_variable.vcxproj", "{0388C515-52FA-404B-8112-D2129A597FC9}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "std future", "std future\std future.vcxproj", "{1248C40C-D298-41CE-AB95-492EB40975D6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -761,6 +763,14 @@ Global
 		{0388C515-52FA-404B-8112-D2129A597FC9}.Release|x64.Build.0 = Release|x64
 		{0388C515-52FA-404B-8112-D2129A597FC9}.Release|x86.ActiveCfg = Release|Win32
 		{0388C515-52FA-404B-8112-D2129A597FC9}.Release|x86.Build.0 = Release|Win32
+		{1248C40C-D298-41CE-AB95-492EB40975D6}.Debug|x64.ActiveCfg = Debug|x64
+		{1248C40C-D298-41CE-AB95-492EB40975D6}.Debug|x64.Build.0 = Debug|x64
+		{1248C40C-D298-41CE-AB95-492EB40975D6}.Debug|x86.ActiveCfg = Debug|Win32
+		{1248C40C-D298-41CE-AB95-492EB40975D6}.Debug|x86.Build.0 = Debug|Win32
+		{1248C40C-D298-41CE-AB95-492EB40975D6}.Release|x64.ActiveCfg = Release|x64
+		{1248C40C-D298-41CE-AB95-492EB40975D6}.Release|x64.Build.0 = Release|x64
+		{1248C40C-D298-41CE-AB95-492EB40975D6}.Release|x86.ActiveCfg = Release|Win32
+		{1248C40C-D298-41CE-AB95-492EB40975D6}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
