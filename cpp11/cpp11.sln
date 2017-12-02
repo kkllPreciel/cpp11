@@ -159,6 +159,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "std forward", "std forward\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "std pair", "std pair\std pair.vcxproj", "{34306882-2510-4B38-84E8-D50210A0AEDB}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "std tuple", "std tuple\std tuple.vcxproj", "{3DEBDEA3-28F5-4450-A9E3-41BCD4A5C401}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -791,6 +793,14 @@ Global
 		{34306882-2510-4B38-84E8-D50210A0AEDB}.Release|x64.Build.0 = Release|x64
 		{34306882-2510-4B38-84E8-D50210A0AEDB}.Release|x86.ActiveCfg = Release|Win32
 		{34306882-2510-4B38-84E8-D50210A0AEDB}.Release|x86.Build.0 = Release|Win32
+		{3DEBDEA3-28F5-4450-A9E3-41BCD4A5C401}.Debug|x64.ActiveCfg = Debug|x64
+		{3DEBDEA3-28F5-4450-A9E3-41BCD4A5C401}.Debug|x64.Build.0 = Debug|x64
+		{3DEBDEA3-28F5-4450-A9E3-41BCD4A5C401}.Debug|x86.ActiveCfg = Debug|Win32
+		{3DEBDEA3-28F5-4450-A9E3-41BCD4A5C401}.Debug|x86.Build.0 = Debug|Win32
+		{3DEBDEA3-28F5-4450-A9E3-41BCD4A5C401}.Release|x64.ActiveCfg = Release|x64
+		{3DEBDEA3-28F5-4450-A9E3-41BCD4A5C401}.Release|x64.Build.0 = Release|x64
+		{3DEBDEA3-28F5-4450-A9E3-41BCD4A5C401}.Release|x86.ActiveCfg = Release|Win32
+		{3DEBDEA3-28F5-4450-A9E3-41BCD4A5C401}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
